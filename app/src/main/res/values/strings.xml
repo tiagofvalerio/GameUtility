@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GameUtility</string>
+    <string name="categoria_cronometro">Cronômetro</string>
+    <string name="categoria_sorteio">Sorteio</string>
+</resources>
