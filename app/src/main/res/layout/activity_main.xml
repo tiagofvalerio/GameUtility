@@ -10,12 +10,13 @@
         style="@style/CategoryStyle"
         android:background="@color/categoria_cronometro"
         android:text="@string/categoria_cronometro"
-        android:onClick="chamaActivityCronometro"/>
+        android:onClick="chamaActivityCountDown"/>
 
     <Button
         android:id="@+id/bt_sorteio"
         style="@style/CategoryStyle"
         android:background="@color/categoria_sorteio"
-        android:text="@string/categoria_sorteio" />
+        android:text="@string/categoria_sorteio"
+        android:onClick="chamaActivitySorteio"/>
 
 </LinearLayout>

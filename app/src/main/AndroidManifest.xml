@@ -15,8 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CronometroActivity" />
-        <activity android:name=".ConfigurarCountDownActivity"></activity>
+        <activity android:name=".CountDownActivity" />
+        <activity android:name=".ConfigurarCountDownActivity" />
+        <activity android:name=".SorteioDadoActivity"></activity>
     </application>
 
 </manifest>

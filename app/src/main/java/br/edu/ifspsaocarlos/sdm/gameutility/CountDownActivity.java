@@ -14,9 +14,9 @@ import org.w3c.dom.Text;
 
 import java.util.concurrent.TimeUnit;
 
-public class CronometroActivity extends Activity {
+public class CountDownActivity extends Activity {
 
-    private static final int CONFIGURA_COUNTDOWN = 0;
+    private static final int CONFIGURA_COUNTDOWN = 1;
 
     private CountDownTimer temporizadorPlayerA;
 
@@ -169,6 +169,8 @@ public class CronometroActivity extends Activity {
                 tvTemporizadorPlayerA.setText(hms);
                 tvTemporizadorPlayerB.setText(hms);
                 startCountDown = milliseconds;
+                lastCountDownA = startCountDown;
+                lastCountDownB = startCountDown;
             }
         }
     }

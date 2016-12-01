@@ -32,7 +32,6 @@ public class ConfigurarCountDownActivity extends Activity {
         numberPickerSeconds.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
             @Override
             public void onValueChange(NumberPicker picker, int oldVal, int newVal){
-                //Display the newly selected number from picker
                 seconds = newVal;
             }
         });
@@ -44,7 +43,6 @@ public class ConfigurarCountDownActivity extends Activity {
         numberPickerMinutes.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
             @Override
             public void onValueChange(NumberPicker picker, int oldVal, int newVal){
-                //Display the newly selected number from picker
                 minutes = newVal;
             }
         });
@@ -56,7 +54,6 @@ public class ConfigurarCountDownActivity extends Activity {
         numberPickerHours.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
             @Override
             public void onValueChange(NumberPicker picker, int oldVal, int newVal){
-                //Display the newly selected number from picker
                 hours = newVal;
             }
         });
